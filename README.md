@@ -1,10 +1,16 @@
-# Getting Started with Create React App
+# Initial Setup
+## Running the server
+
+The server.js file requires an environment variable "MONGODB_URI", setup up a .env file with this variable defined:
+
+`echo "MONGODB_URI=your_mongodb_connection_string" > .env`
+
+You can the server using the command:
+`node server.js`
+
+## Running the React Application
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
