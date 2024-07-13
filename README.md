@@ -5,7 +5,7 @@ The server.js file requires an environment variable "MONGODB_URI", setup up a .e
 
 `echo "MONGODB_URI=your_mongodb_connection_string" > .env`
 
-You can the server using the command:
+You can run the server using the command:
 `node server.js`
 
 ## Running the React Application
